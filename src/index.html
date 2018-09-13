@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PaintButchers: Home</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="/styles/head.css">
+  <link rel="stylesheet" type="text/css" href="/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles/homepage.css">
+  <link rel="stylesheet" href="/styles/menu.css">
+  <link rel="stylesheet" type="text/css" href="/styles/navbar.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/styles/index.css">
+  <link rel="stylesheet" type="text/css" href="/styles/portfolio.css">
+
+  <!-- Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Professional Design Agency. Do you need any design done? Contact us today at contact@paintbutchers.com, and we'll do the job.">
+
+  <!-- Scripts -->
+  <script src="/js/menu.js"></script>
+  <script src="https://use.fontawesome.com/cf00a2611a.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+  <script>
+    AOS.init();
+  </script>
+
+  <header>
+    <div class="blue">
+      <div class="container">
+
+        <nav class="row">
+          <a class="col-sm-4 col-xs-9" href="/"><img id="logologo" src="/images/logo.png"></a>
+          <img onclick="showMenu()" class="menu col-xs-2" src="/images/more.svg" alt="More">
+          <ul id="menu" class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-0 col-lg-5 col-lg-offset-3 col-xs-12">
+            <li><a href="https://www.paintbutchers.com/request" style="padding: 8px;border-radius: 10px;margin-left: -5px;"
+                class="request">Custom work</a></li>
+            <li><a href="/process">Our process</a></li>
+            <!-- <li><a href="https://t.co/6yy0XZA7Kk">Career</a></li> -->
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li onclick="myFunction()"><a class="dropbtn">Services<i class="drop"></i></a></li>
+            <div class="dropdown">
+              <div id="myDropdown" class="dropdown-content">
+                <a href="https://store.paintbutchers.com">PaintStore</a>
+                <a href="https://www.paintbutchers.com/#services">Web Development</a>
+                <a href="https://www.paintbutchers.com/#services">Custom Design</a>
+              </div>
+            </div>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <style>
+    .icon-twitter:hover {
+      background-color: #0084b4;
+    }
+
+    .icon-twitter {
+      background-color: #00aced;
+      color: white;
+      padding: 12px;
+      border-radius: 100vh;
+      border: none;
+      font-size: 1.9rem;
+    }
+
+    #mybutton {
+      z-index: 100;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+    }
+  </style>
+
+  <main>
+    <div id="mybutton">
+      <a class="icon-twitter" href="https://twitter.com/messages/compose?recipient_id=876917844524630016"></a>
+    </div>
+
+    <section id="quote">
+      <div class="container">
+        <center>
+          <h2>With top quality graphics, we at PaintButchers strives to satisfy your needs</h2>
+          <h2>based upon your preferences and ideal looks.</h2>
+        </center>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <center>
+          <h2 class="col-sm-4 col-sm-offset-4">This is what we do</h2>
+          <div class="cont" class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-6">
+              <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+              <h2 data-aos="zoom-in" class="cont-t">
+                <b>Web development</b>
+              </h2>
+              <p data-aos="zoom-in" class="cont-p2">Regardless if you are looking for a simple portfolio website or if
+                you want a e-comerce site, we at PaintButchers
+                can help you out. Our developers have knowledge about the latest and best runtimes, programming
+                languages
+                and web structures in the industy.</p>
+            </div>
+            <div class="col-sm-6">
+              <i class="fa fa-paint-brush fa-5x" aria-hidden="true"></i>
+              <h2 data-aos="zoom-in" class="cont-t">Graphic design</h2>
+              <p data-aos="zoom-in" class="cont-p">If you are looking for cheap but quality graphic design this is the
+                right place to go. We offer everything
+                from Twitter revamps to professional hand drawn Logo designs! So what are you waiting for? Scroll down
+                to
+                see some of our latest work.</p>
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <center>
+          <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="port-t" class="col-sm-4 col-sm-offset-4">Here's
+            some of our work</h2>
+        </center>
+
+        <div class="col-sm-8 col-sm-offset-2">
+
+          <div class="col-sm-6 port">
+            <div class="inner inner-1">
+            </div>
+          </div>
+
+          <div class="col-sm-6 port">
+            <div class="inner inner-2">
+            </div>
+          </div>
+
+          <div class="col-sm-6 port">
+            <div class="inner inner-3">
+            </div>
+          </div>
+
+          <div class="col-sm-6 port">
+            <div class="inner inner-4">
+            </div>
+          </div>
+
+        </div>
+
+        <center>
+          <a class="col-sm-2 col-sm-offset-5 port-btn" href="/portfolio">View more</a>
+        </center>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <form id="form" class="col-sm-12" action="https://formspree.io/contact@paintbutchers.com" method="POST">
+
+            <h2 class="col-sm-12">Contact us</h2>
+
+            <div class="group col-sm-6">
+              <input type="text" name="namn" id="namn" placeholder="Name" style="font-family: 'Poppins', sans-serif;">
+              <br>
+            </div>
+
+            <input type="text" name="_gotcha" style="display:none" />
+
+            <div class="group col-sm-6">
+              <input type="text" name="email" id="email" placeholder="E-Mail" style="font-family: 'Poppins', sans-serif;">
+              <br>
+            </div>
+
+            <div class="group col-sm-12">
+              <textarea form="form" type="text" name="message" id="message" placeholder="Enter message here" style="font-family: 'Poppins', sans-serif;"></textarea>
+              <br>
+            </div>
+
+            <div class="col-sm-6 col-sm-offset-6">
+              <input style="-webkit-appearance: none;margin: 20px 0;" class="send" type="submit" value="Send" style="font-family: 'Poppins', sans-serif;">
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+
+          <ul class="col-sm-3 col-xs-6">
+            <li class="col-sm-12 footer__li main"><b>QUICK LINKS</b></li>
+            <li class="col-sm-12 footer__li"><a href="/portfolio">Portfolio</a></li>
+            <li class="col-sm-12 footer__li"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhxLmsYwL1DPpyeWiDNOutUTXZKbr2bzZk0IpBrD4uHNA9Zw/viewform">Career</a></li>
+            <li class="col-sm-12 footer__li"><a href="#contact">Contact</a></li>
+          </ul>
+
+          <ul class="col-sm-3 col-xs-6">
+            <li class="col-sm-12 footer__li main"><b>STAFF TWITTER</b></li>
+            <li class="col-sm-12 footer__li"><a href="https://twitter.com/PaintButchers">@PaintButchers</a></li>
+            <li class="col-sm-12 footer__li"><a href="https://twitter.com/VRitsvall">@VRitsvall</a></li>
+            <li class="col-sm-12 footer__li"><a href="https://twitter.com/FilipManzi">@FilipManzi</a></li>
+          </ul>
+
+          <ul class="col-sm-3 col-xs-12">
+            <li class="col-sm-12 footer__li main"><b>STAFF EMAILS</b></li>
+            <li class="col-sm-12 footer__li"><a href="mailto:contact@paintbutchers.com">Contact@paintbutchers.com</a></li>
+            <li class="col-sm-12 footer__li"><a href="mailto:ritsvall@paintbutchers.com">Ritsvall@paintbutchers.com</a></li>
+            <li class="col-sm-12 footer__li"><a href="mailto:filip@paintbutchers.com">Filip@paintbutchers.com</a></li>
+          </ul>
+
+          <ul class="col-sm-3 col-xs-12">
+            <li class="col-sm-12 footer__li main"><b>PaintButchers</b></li>
+            <li class="col-sm-12 footer__li">
+              <p style="color: lightgrey;">Creative Studio with graphic design & web development expertises.</p>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-3 col-xs-offset-0 col-xs-12 copyright">
+          <p class="col-sm-12 row">PaintButchers © 2018</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

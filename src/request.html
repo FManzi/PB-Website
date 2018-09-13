@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PaintButchers: Request work</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/head.css">
+    <link rel="stylesheet" type="text/css" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
+    <link rel="stylesheet" href="/styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="/styles/navbar.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="/styles/portfolio.css">
+
+    <!-- Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Professional Design Agency. Do you need any design done? Contact us today at contact@paintbutchers.com, and we'll do the job.">
+
+    <!-- Scripts -->
+    <script src="/js/menu.js"></script>
+    <script src="https://use.fontawesome.com/cf00a2611a.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <header>
+        <div class="blue">
+            <div class="container">
+
+                <nav class="row">
+                    <a class="col-sm-4 col-xs-9" href="/"><img id="logologo" src="/images/logo.png"></a>
+                    <img onclick="showMenu()" class="menu col-xs-2" src="/images/more.svg" alt="More">
+                    <ul id="menu" class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-0 col-lg-5 col-lg-offset-3 col-xs-12">
+                        <li><a href="https://www.paintbutchers.com/request" style="padding: 8px;border-radius: 10px;margin-left: -5px;"
+                                class="request">Custom work</a></li>
+                        <li><a href="/process">Our process</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li onclick="myFunction()"><a class="dropbtn">Services<i class="drop"></i></a></li>
+                        <div class="dropdown">
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="https://store.paintbutchers.com">PaintStore</a>
+                                <a href="https://www.paintbutchers.com/#services">Web Development</a>
+                                <a href="https://www.paintbutchers.com/#services">Custom Design</a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <form id="theForm" action="https://formspree.io/contact@paintbutchers.com" method="POST" class="col-sm-6 col-md-5 row"
+            style="margin-bottom: 20px;">
+
+            <h2 class="col-xs-12 row" style="margin-top: 30px;margin-bottom:30px;">Request custom work</h2>
+
+            <div class="col-xs-12 row name-div" style="margin-top: 25px;">
+                <p class="col-xs-12 row">Name:</p>
+                <input id="name" name="Name" class="col-xs-12" type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="col-xs-12 row email-div" style="margin-top: 25px;">
+                <p class="col-xs-12 row">E-Mail:</p>
+                <input id="email" name="E-Mail" class="col-xs-12" type="text" placeholder="Enter your e-mail">
+            </div>
+
+            <div class="col-xs-12 row" style="margin-top: 25px;">
+                <p class="col-xs-12 row">What are you looking for?</p>
+                <select name="Work type" form="theForm">
+                    <option value="Social media">Social media (twitter / youtube)</option>
+                    <option value="Logo">Logo (letter logo / text-based)</option>
+                    <option value="Thumbnails">Thumbnails</option>
+                    <option value="Mascot logo">Mascot logo</option>
+                    <option value="Motion design">Motion design</option>
+                    <option value="Twitch design">Twitch design</option>
+                    <option value="Web development">Web development</option>
+                </select>
+            </div>
+
+            <div class="col-xs-12 row budget-div" style="margin-top: 25px;">
+                <p class="col-xs-12 row">Your budget (in EUR):</p>
+                <input id="budget" name="Budget" type="number" name="quantity" min="1" max="999" placeholder="69">
+            </div>
+
+            <div class="col-xs-12 row desc-div" style="margin-top: 25px;">
+                <p class="col-xs-12 row">Description:</p>
+                <textarea id="desc" name="Details" cols="30" rows="10" placeholder="Enter the details of your project here"></textarea>
+            </div>
+
+            <input type="submit" value="Send request" class="subBtn col-xs-12">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+
+                    <ul class="col-sm-3 col-xs-6">
+                        <li class="col-sm-12 footer__li main"><b>QUICK LINKS</b></li>
+                        <li class="col-sm-12 footer__li"><a href="/portfolio">Portfolio</a></li>
+                        <li class="col-sm-12 footer__li"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhxLmsYwL1DPpyeWiDNOutUTXZKbr2bzZk0IpBrD4uHNA9Zw/viewform">Career</a></li>
+                        <li class="col-sm-12 footer__li"><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <ul class="col-sm-3 col-xs-6">
+                        <li class="col-sm-12 footer__li main"><b>STAFF TWITTER</b></li>
+                        <li class="col-sm-12 footer__li"><a href="https://twitter.com/PaintButchers">@PaintButchers</a></li>
+                        <li class="col-sm-12 footer__li"><a href="https://twitter.com/VRitsvall">@VRitsvall</a></li>
+                        <li class="col-sm-12 footer__li"><a href="https://twitter.com/FilipManzi">@FilipManzi</a></li>
+                    </ul>
+
+                    <ul class="col-sm-3 col-xs-12">
+                        <li class="col-sm-12 footer__li main"><b>STAFF EMAILS</b></li>
+                        <li class="col-sm-12 footer__li"><a href="mailto:contact@paintbutchers.com">Contact@paintbutchers.com</a></li>
+                        <li class="col-sm-12 footer__li"><a href="mailto:ritsvall@paintbutchers.com">Ritsvall@paintbutchers.com</a></li>
+                        <li class="col-sm-12 footer__li"><a href="mailto:filip@paintbutchers.com">Filip@paintbutchers.com</a></li>
+                    </ul>
+
+                    <ul class="col-sm-3 col-xs-12">
+                        <li class="col-sm-12 footer__li main"><b>PaintButchers</b></li>
+                        <li class="col-sm-12 footer__li">
+                            <p style="color: lightgrey;">Creative Studio with graphic design & web development
+                                expertises.</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-sm-3 col-xs-offset-0 col-xs-12 copyright">
+                    <p class="col-sm-12 row">PaintButchers © 2018</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("logologo").src = "/images/logo_blue.png";
+    </script>
+
+    <style>
+        .name-div #name:focus {
+            padding: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .email-div #email:focus {
+            padding: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .budget-div #budget:focus {
+            padding: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .desc-div #desc:focus {
+            padding: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+    </style>
+
+</body>
+
+</html>

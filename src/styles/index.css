@@ -1,0 +1,283 @@
+.blue {
+    background-color: #3a8fd9;
+}
+
+.blue i {
+    margin-bottom: 2px;
+    margin-left: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#quote {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+
+#logologo {
+    filter: brightness(0) invert(1);
+}
+
+#quote {
+    color: white;
+    background: url('/images/bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#services {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.cont {
+    padding: 100px 0;
+}
+
+.cont-p {
+    max-width: 420px;
+}
+
+.cont-p2 {
+    max-width: 420px;
+}
+
+.cont-t {
+    padding: 20px 0;
+}
+
+#portfolio {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #2f3f4a;
+}
+
+#portfolio h2 {
+    color: white;
+}
+
+.port {
+    margin-bottom: 30px;
+    height: 200px;
+    /* width: 100%; */
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.inner-1 {
+    background: url('https://cms.fmanzi.com/content/paintbutchers.com/1522170343619-833779822.png') no-repeat center center; 
+    background-size: cover;
+}
+
+.inner-2 {
+    background: url('https://cms.fmanzi.com/content/paintbutchers.com/1522170423986-134307280.png') no-repeat center center; 
+    background-size: cover;
+}
+
+.inner-3 {
+    background: url('https://cms.fmanzi.com/content/paintbutchers.com/1522170410016-593924106.png') no-repeat center center; 
+    background-size: cover;
+}
+
+.inner-4 {
+    background: url('https://cms.fmanzi.com/content/paintbutchers.com/1522170389405-673458785.png') no-repeat center center; 
+    background-size: cover;
+}
+
+.port-t {
+    padding-bottom: 50px;
+}
+
+#contact {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background: #3a8fd9;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin: 12px 0;
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+}
+
+input[type=text] {
+    margin: 12px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    padding: 8px 0;
+}
+
+select {
+    margin: 12px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    padding: 8px 0;
+}
+
+input[type=number] {
+    margin: 12px 0;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    padding: 8px 0;
+}
+
+input[type=textarea] {
+    margin: 12px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    padding: 8px 0;
+}
+
+input[type=submit] {
+    padding: 13px 0;
+}
+
+.subBtn {
+    color: white;
+    background: #3a8fd9;
+}
+
+.subBtn:hover {
+    cursor: pointer;
+    background: #2b6ea8;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #3a8fd9;
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #3a8fd9;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    padding: 8px 0;
+}
+
+.group {
+    margin: 10px 0;
+}
+
+label {
+    float: left;
+}
+
+.send {
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    background: #3a8fd9;
+}
+
+.send:hover {
+    cursor: pointer;
+    background: #3a8fd9;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.25);
+}
+
+i {
+    color: #3a8fd9;
+}
+
+@media all and (max-width: 767px) {
+    #quote {
+        padding: 100px 0 170px 0;
+    }
+
+    .cont-p2 {
+        margin-bottom: 80px;
+    }
+
+    .cont {
+        padding: 60px 0 20px 0;
+    }
+}
+
+
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+#form {
+    margin: 10px;
+    padding: 30px;
+    background: white;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    background: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.port-btn {
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 7px 15px;
+    color: white;
+    background: rgb(109, 109, 109);
+}
+
+.port-btn:hover {
+    box-shadow: 0px 0px 10px 4px rgba(46, 46, 46, 0.85);
+}
+
+.request {
+    border: 2px solid white;
+}
+
+.request:hover {
+    border: 2px solid #29699c;
+}

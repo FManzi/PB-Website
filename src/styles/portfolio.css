@@ -1,0 +1,45 @@
+.item {
+    display: none;
+    border: #FFF solid 6px;
+    list-style: none;
+    height: 200px;
+    background: #FFF;
+}
+
+.active {
+    display: block;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.blue {
+    background: #FFF;
+}
+
+nav a {
+    color: #3a8fd9;
+}
+
+.dropbtn {
+    color: #3a8fd9;
+}
+
+.blue i {
+    border: solid #3a8fd9;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+#logologo {
+    filter: none;
+}
+
+.request {
+    border: 2px solid #3a8fd9;
+}
+
+.request:hover {
+    border: 2px solid #29699c;
+}

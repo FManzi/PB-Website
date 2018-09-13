@@ -1,0 +1,96 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url('/fonts/Roboto/Roboto-Black.ttf');
+}
+
+.navbar {
+    z-index: 100;
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__ul {
+    width: 100%;
+}
+
+.navbar__li {
+    height: 55px;
+    font-family: RobotoBold;
+    list-style: none;
+    color: black;
+    line-height: 55px;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.navbar__li a{
+    color: #002255;
+}
+
+.logotype {
+    padding: 0;
+    height: 55px;
+    width: auto;
+}
+
+.navbar__p {
+    font-size: 0.9em;
+}
+
+.navbar__p:hover {
+    font-size: 0.95em;
+    color: #222;
+    border-bottom: 2px solid #222;
+}
+
+.main-logo {
+    margin-top: -3px;
+    width: auto;
+    height: 55px;
+    padding: 8px;
+}
+
+.main-logo:hover {
+    padding: 7.5px;
+}
+
+nav a {
+    font-size: 1em;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover .drop{
+    color: #29699c;
+    border: solid #266394;
+    border-width: 0 3px 3px 0;
+}
+
+.dropbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav .drop {
+    margin-bottom: 2px;
+    margin-left: 8px;
+    border: solid #3a8fd9;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.blue {
+    background-color: white;
+}
+
+nav a:hover {
+    color: #266394;
+}
