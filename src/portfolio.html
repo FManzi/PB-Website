@@ -91,7 +91,7 @@
             </select>
         </div>
         <ul id="artwork" class="col-sm-12" style="margin-bottom: 80px;">
-            <li id="loading">Images is loading in, please wait</li>
+            <li id="loading-text" class="item">Images is loading in, please wait</li>
         </ul>
 
     </main>
@@ -321,7 +321,7 @@
                         "') no-repeat center center;background-size: cover;"
                     ul.appendChild(li);
                     filterGraphics('all-items');
-                    document.getElementById("loading").style.display = none;
+                    document.getElementById("loading-text").style.display = none;
                 }
             })
             .catch(function (error) {
