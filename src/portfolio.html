@@ -317,6 +317,7 @@
                 for (i = 0; i < response.data.images.length; i++) {
                     var li = document.createElement("li");
                     li.setAttribute("class", "col-sm-3 col-xs-12 item all-items " + response.data.images[i].category );
+                    li.setAttribute("onclick", "showImage('" + response.data.images[i].url + "', " + i + ")");
                     li.style = "background: url('" + response.data.images[i].url +
                         "') no-repeat center center;background-size: cover;"
                     ul.appendChild(li);
